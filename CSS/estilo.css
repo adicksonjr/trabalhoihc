@@ -1,4 +1,21 @@
 
-#barranav{
-    color: aqua;
+.barranav{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.itensnav{
+    margin-left: 130px;
+}
+a .navbar-brand :hover{
+    color: rgba(0, 0, 0, 1);
+}
+footer .container{
+    margin-top: 30px;
+}
+#rodape{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    margin-top: 30px;
+}
+.imagem{
+    margin: 20px;
 }
