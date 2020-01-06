@@ -9,11 +9,17 @@
 </head>
 <body>
 	 <header>
-        <div >
-            <nav class="barranav">
+        <div class="" >
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
                 <div class="itensnav">
-                    <a class="navbar-brand">Home</a>
-                    <a class="navbar-brand">Categorias</a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="">Categorias</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>   
@@ -25,16 +31,48 @@
         </section>
         <section>
             <h2>recomendaçoes</h2>
-            <a class="imagem" href=""><img src="../Imagens/jogo1.jpg" width=”170px” height="180px"></a>
-            <a class="imagem" href=""><img src="../Imagens/jogo2.jpg" width=”170px” height="180px"></a>
-            <a class="imagem" href=""><img src="../Imagens/jogo3.jpg" width=”170px” height="180px"></a>
+            <div class="container">
+                <div class="row" style="margin-left: 20px;">
+                    <div class="card" style="width: 180px; ">
+                        <img src="../Imagens/jogo1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">jogo1</h5>
+                          <p class="card-text">um jogo legal.</p>
+                          <a href="#" class="btn btn-primary">Jogar</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 180px; margin-left: 20px;">
+                        <img src="../Imagens/jogo2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">jogo2</h5>
+                          <p class="card-text">um jogo legal.</p>
+                          <a href="#" class="btn btn-primary">Jogar</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 180px; margin-left: 20px;">
+                        <img src="../Imagens/jogo3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">jogo3</h5>
+                          <p class="card-text">um jogo legal.</p>
+                          <a href="#" class="btn btn-primary">Jogar</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 180px; margin-left: 20px;">
+                        <img src="../Imagens/jogo4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">jogo4</h5>
+                          <p class="card-text">um jogo legal.</p>
+                          <a href="#" class="btn btn-primary">Jogar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <div  >
-            <footer class="container" style="margin-top: 30px;">
-                <p>©Copyright 2019 Adickson e Marcos</p>
-            </footer>
-        </div>
+        <section class="copyright py-4 text-center text-black">
+            <div class="container">
+                <small>©Copyright 2019 Adickson e Marcos</small>
+            </div>
+        </section>
     </div>
-	
 </body>
 </html>

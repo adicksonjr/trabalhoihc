@@ -8,14 +8,33 @@
 a .navbar-brand :hover{
     color: rgba(0, 0, 0, 1);
 }
-footer .container{
-    margin-top: 30px;
+.conteudo{
+    text-align: center;
+    position: relative;
+    height: 1000px;
 }
-#rodape{
+.rodape{
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    
-    margin-top: 30px;
+    height: 50px;
+    margin-top: 10px;
+    bottom:0;
 }
-.imagem{
-    margin: 20px;
+
+.imagem :hover{
+    opacity: 0.5;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer,
+.push {
+    height: 50px;
 }
