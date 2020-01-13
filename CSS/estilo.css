@@ -1,10 +1,40 @@
+body{
+    
+}
+.conteudo{
+    margin: auto;
+}
+#barranav{
+    margin-left: 80px;
+    background-color: rgb(255, 255, 255);
+    border: white;
+    border-bottom: black;
+    border-style: solid;
+    height: 80px;
+    position: fixed ;
+    left: 0;
+    top: 0;
+    width: 90%;
+    display: ruby-base-container;
+}
+header nav ul{
+    list-style: none;
+    float: left;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+#btn-navbar{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    border: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.01);
+    height: 80px;
+    padding-top: 18px;
+}
 
-.barranav{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.itensnav{
-    margin-left: 130px;
-}
 a .navbar-brand :hover{
     color: rgba(0, 0, 0, 1);
 }
@@ -20,9 +50,16 @@ a .navbar-brand :hover{
     margin-top: 10px;
     bottom:0;
 }
-
-.imagem :hover{
+.card{
+    width: 200px; 
+    margin: 20px;
+}
+.card :hover{
     opacity: 0.5;
+}
+
+.btn-primary {
+    opacity: 10;
 }
 html, body {
     height: 100%;
@@ -48,3 +85,42 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.principal{
+    margin-top: 130px;
+}
+
+#divBusca{
+    float: right;
+    background-color:rgb(255, 255, 255);
+    border:solid 2px rgb(255, 255, 255);
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    margin: 20px;
+}
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+   
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    color: rgba(0, 0, 0, 1);
+    padding: 5px;
+    background-color: rgb(114, 114, 114);
+  }
+   
+  #divBusca img{
+    float:left;
+  }
